@@ -1,0 +1,78 @@
+1) docker pull nginx:alpine
+
+alpine: Pulling from library/nginx
+136bc6976c20: Pulling fs layer
+abdece946203: Download complete
+136bc6976c20: Pull complete
+ad5b65da02cf: Pull complete
+014e56e61396: Pull complete
+fc13532503d7: Pull complete
+dfad290a5c25: Pull complete
+5d2cc344426d: Pull complete
+0a705e79f45b: Download complete
+1e626c7e7022: Download complete
+Digest: sha256:289decab414250121a93c3f1b8316b9c69906de3a4993757c424cb964169ad42
+Status: Downloaded newer image for nginx:alpine
+docker.io/library/nginx:alpine
+
+2) docker run --name my-nginx -d -p 8080:80 nginx:alpine
+
+637530ac6e20e3c143b71c18edc34e256a4ce67b97866ebc05c48b1371ba9873
+
+3) docker stop my-nginx
+
+my-nginx
+
+4) docker rm my-nginx
+
+my-nginx
+
+5) docker run --name my-nginx -d -p 8080:80 -v C:\Users\drazm\nginx-1.28.0
+
+\html:/usr/share/nginx/html nginx
+Unable to find image 'nginx:latest' locally
+latest: Pulling from library/nginx
+5b5fa0b64d74: Pull complete
+9ee60c6c0558: Pull complete
+7382b41547b8: Pull complete
+ee3a09d2248a: Pull complete
+114e699da838: Pull complete
+5b219a92f92a: Pull complete
+adeb5aba46ee: Download complete
+11488ed04caf: Download complete
+Digest: sha256:fb01117203ff38c2f9af91db1a7409459182a37c87cced5cb442d1d8fcc66d19
+Status: Downloaded newer image for nginx:latest
+fe4dddfe862bd215c9655f311ec3f31a5ae6c4eac0affcbd849f1e04262372d2
+
+6) docker tag nginx:alpine mohameddraz53/myproject:v1
+(no output)
+
+7) docker login
+
+
+USING WEB-BASED LOGIN
+
+i Info → To sign in with credentials on the command line, use 'docker login -u <username>'
+
+Your one-time device confirmation code is: JNDT-FBRX
+Press ENTER to open your browser or submit your device code here: https://login.docker.com/activate
+
+Waiting for authentication in the browser…
+
+Login Succeeded
+
+8) docker push mohameddraz53/myproject:v1
+
+The push refers to repository [docker.io/mohameddraz53/myproject]
+dfad290a5c25: Mounted from library/nginx
+136bc6976c20: Mounted from library/nginx
+abdece946203: Mounted from library/nginx
+51c30493937c: Mounted from library/nginx
+ad5b65da02cf: Mounted from library/nginx
+014e56e61396: Mounted from library/nginx
+fc13532503d7: Mounted from library/nginx
+5d2cc344426d: Mounted from library/nginx
+v1: digest: sha256:e41316bb39937cebbf2674f26afe9e7bf94b4bbc6a301367891cf85843abfeda size: 2495
+
+i Info → Not all multiplatform-content is present and only the available single-platform image was pushed
+sha256:289decab414250121a93c3f1b8316b9c69906de3a4993757c424cb964169ad42 -> sha256:e41316bb39937cebbf2674f26afe9e7bf94b4bbc6a301367891cf85843abfeda
