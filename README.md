@@ -1,7 +1,7 @@
 ## Mohamed Ebrahim Lotfy Draz
 Junior DevOps & AWS Cloud Engineer with hands-on experience in deploying and automating cloud infrastructure using AWS and CloudFormation.
 Strong background in Linux, Python scripting, and cloud security (IAM).
-Currently training in the Digital Egypt Pioneers Initiative (DEPI) – DevOps Track.
+Currently training in the Digital Egypt Pioneers Initiative (DEPI) -- (Round 4 ) – DevOps Track.
 Actively seeking an entry-level or trainee role to grow in cloud & DevOps engineering.
 
 # Skills : 
