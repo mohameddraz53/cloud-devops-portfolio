@@ -6,7 +6,7 @@ Actively seeking an entry-level or trainee role to grow in cloud & DevOps engine
 
 # Skills : 
 
- - AWS Academy Graduate - AWS Academy Cloud FoundationsAWS Academy Graduate - AWS Academy Cloud Foundations
+ - AWS Academy Graduate - AWS Academy Cloud Foundations AWS Academy Graduate - AWS Academy Cloud Foundations
  - Aws Academy Graduate - Aws Academy Cloud Operations
  - Bash
  - Linux System Administration l
