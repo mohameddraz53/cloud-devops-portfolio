@@ -16,10 +16,13 @@ Actively seeking an entry-level or trainee role to grow in cloud & DevOps engine
 •	infrastructure & Security – 
 •	AWS Cloud Solution Admin & Architect (DEPI)
 •	Business English Track – Round (1) (DEPI)
-  EDUCATION :
+
+
+## EDUCATION :
 •	B.Sc. Communications & Electronics Engineering – Delta University
 •	GPA: 3.103 / 4.0 – Very Good
 •	Graduation Project: Smart 
 •	Home Design (Excellent A+)
 •	Accredited by Supreme Council of Universities – Egypt
 Accredited by NAQAAE, Decision No.199 (2020/10/5)
+
